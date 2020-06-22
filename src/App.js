@@ -13,7 +13,7 @@ function App() {
 
     // To create a new array that consists of an existing array plus a new element
     // we use the spread syntax: [...oldArray, newItem]
-    // This will re-render the App component with the new updated array inside catImageUrls
+    // This will re-render the App component with the new updated array inside imageUrls
     setImageUrls([...imageUrls, data.file]);
   }
 
